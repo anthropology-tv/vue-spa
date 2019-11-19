@@ -1,7 +1,7 @@
 {
   "name": "vue-spa",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "version": "1.0.13",
+  "description": "Weird Antropology Video Collection",
   "author": "Boris Melikian <boris@lariushin.org>",
   "private": true,
   "scripts": {
