@@ -4,22 +4,24 @@
     <br>
     <hr class="red"/>
     <div class="links">
-      <a class="link" href="http://lariushin.org/">lariushin.org</a>
-      ⛧ <a class="link" href="http://lariushin.top/">lariushin.top</a>
-      ⛧ <a class="link" href="http://herbarium.info/">herbarium.info</a>
-      ⛧ <a class="link" href="http://fungarium.info/">fungarium.info</a>
-      ⛧ <a class="link" href="http://lichenarium.info/">lichenarium.info</a>
-      ⛧ <a class="link" href="http://plantarium.info/">plantarium.info</a>
-      ⛧ <a class="link" href="http://algaerium.info/">algaerium.info</a>
-      ⛧ <a class="link" href="http://lariushin.com/">lariushin.com</a>
-      ⛧ <a class="link" href="http://nightshade.blog/">nightshade.blog</a>
-      ⛧ <a class="link" href="http://bettycat.vip/">bettycat.vip</a>
-      ⛧ <a class="link" href="http://www.bibliothecium.info/">bibliothecium.info</a>
-      ⛧ <a class="link" href="https://antropology.tv/#/">antropology.tv</a>
-      ⛧ <a class="link" href="http://xn--land-saar-z7a.cc/">öland-saar.cc</a>
-      ⛧ <a class="link" href="http://iceland-trip.cc/">iceland-trip.cc</a>
-      ⛧ <a class="link" href="http://centralbrainz.tv/">centralbrainz.tv</a>
-      ⛧ <a class="link" href="ttp://travel-pics.vip/">travel-pics.vip</a>
+      &bull; <a class="link" href="http://lariushin.org/">lariushin.org</a>
+      &bull; <a class="link" href="http://lariushin.top/">lariushin.top</a>
+      &bull; <a class="link" href="http://herbarium.info/">herbarium.info</a>
+      &bull; <br/>&bull; <a class="link" href="http://fungarium.info/">fungarium.info</a>
+      &bull; <a class="link" href="http://lichenarium.info/">lichenarium.info</a>
+      &bull; <a class="link" href="http://plantarium.info/">plantarium.info</a>
+      &bull; <br/>&bull; <a class="link" href="http://algaerium.info/">algaerium.info</a>
+      &bull; <a class="link" href="http://lariushin.com/">lariushin.com</a>
+      &bull; <a class="link" href="http://nightshade.blog/">nightshade.blog</a>
+      &bull; <br/>&bull; <a class="link" href="http://bettycat.vip/">bettycat.vip</a>
+      &bull; <a class="link" href="http://www.bibliothecium.info/">bibliothecium.info</a>
+      &bull; <a class="link" href="https://antropology.tv/#/">antropology.tv</a>
+      &bull; <br/>&bull; <a class="link" href="http://xn--land-saar-z7a.cc/">öland-saar.cc</a>
+      &bull; <a class="link" href="http://iceland-trip.cc/">iceland-trip.cc</a>
+      &bull; <a class="link" href="http://centralbrainz.tv/">centralbrainz.tv</a>
+      &bull; <br/>&bull; <a class="link" href="http://travel-pics.vip/">travel-pics.vip</a>
+      &bull; <a class="link" href="http://necronomicon.vip/">necronomicon.vip</a>
+      &bull; <a class="link" href="http://asmodeus.vip/">asmodeus.vip</a> &bull;
     </div>
     <hr class="red"/>
     <br>
