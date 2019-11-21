@@ -133,7 +133,7 @@ a {
   min-width: 320px;
 }
 .flip {
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 </style>

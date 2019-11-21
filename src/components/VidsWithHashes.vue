@@ -147,12 +147,7 @@ a {
   min-width: 320px;
 }
 .flip {
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 </style>
