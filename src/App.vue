@@ -43,9 +43,11 @@
       :ref="`card_${index}`" class="values">
         <div class="div-img"><a :href="value.img_url" target="_blank"><img :src="value.img_url" class="thumb"/></a></div>
         <div class="div-value">
-          <h5><router-link class="rot" @click="clearData" :to="value.url">{{value.name}}</router-link></h5>
+          <h5><a href="#" class="rot" @click="clearData(value.url)">{{value.name}}</a></h5>
           <h6 class="blue">{{value.description}}</h6>
-          <span class="yellow">{{value.keywords}}</span>
+          <template v-for="cathash in catshashes(value.keywords)">
+            &nbsp; <a href="#" class="yellow" @click="clearData('/hash/' + cathash.substr(1) + '')" v-bind:key="cathash">{{ cathash }}</a>
+          </template>
         </div>
       </div>
     </div>
@@ -66,8 +68,17 @@ export default {
     }
   },
   methods: {
-    clearData () {
+    clearData (url) {
+      this.$router.push(url)
       this.data = []
+      this.query = ''
+    },
+    catshashes (cats) {
+      let array = []
+      cats.split(' ').forEach(cat => {
+        array.push(cat)
+      })
+      return array.filter((item, index) => array.indexOf(item) === index)
     },
     extension (url) {
       console.log(url)
