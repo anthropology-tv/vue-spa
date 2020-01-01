@@ -1,6 +1,6 @@
 <template xmlns:v="http://www.w3.org/1999/xhtml">
   <div id="app">
-    <img width="320" height="auto" src="./assets/star.gif" />
+    <img width="320" height="auto" src="/static/star.webp" />
     <br>
     <hr class="red"/>
     <div class="links">
@@ -119,7 +119,7 @@ export default {
           result.name = element.name
           result.description = element.description
           result.url = encodeURI('/vid/' + element.url)
-          result.img_url = encodeURI('/thumbs/' + this.extension(element.url) + '.jpg')
+          result.img_url = encodeURI('/thumbs/' + this.extension(element.url) + '.webp')
           results.push(result)
         }
       })
@@ -248,5 +248,49 @@ body {
 }
 .div-value {
   text-align: left;
+}
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: lawngreen;
+  word-wrap: break-word
+}
+.pink {
+  color: deeppink;
+  word-wrap: break-word
+}
+.yellow {
+  color: yellow;
+  word-wrap: break-word
+}
+.green {
+  color: lawngreen;
+  word-wrap: break-word
+}
+.blue {
+ color: dodgerblue;
+ word-wrap: break-word
+}
+.mainblock {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.videoblock {
+  max-width: 640px;
+  width: 100%;
+  min-width: 320px;
+}
+.flip {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 </style>

@@ -13,7 +13,7 @@
         </h2>
         <div class="iblock">
           <router-link :to="encodeURI('/vid/' + data.url)">
-          <img :src="encodeURI('../thumbs/' + extension(data.url) + '.jpg')" class="videoblock" height="auto" /></router-link>
+          <img :src="encodeURI('../thumbs/' + extension(data.url) + '.webp')" class="videoblock" height="auto" /></router-link>
         </div>
         <h3 class="iblock blue">
           {{ data.description !== 'todo add description' ? data.description : data.url.split('.')[0] }}
@@ -32,7 +32,7 @@
         <hr class="pink"/>
       </div>
     </div>
-    <img class="flip" width="320" height="auto" src="../assets/star.gif">
+    <img class="flip" width="320" height="auto" src="/static/star.webp">
   </div>
 </template>
 
@@ -88,51 +88,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: lawngreen;
-  word-wrap: break-word
-}
-.pink {
-  color: deeppink;
-  word-wrap: break-word
-}
-.yellow {
-  color: yellow;
-  word-wrap: break-word
-}
-.green {
-  color: lawngreen;
-  word-wrap: break-word
-}
-.blue {
- color: dodgerblue;
- word-wrap: break-word
-}
-.mainblock {
-  max-width: 800px;
-  margin: 0 auto;
-}
-.videoblock {
-  max-width: 640px;
-  width: 100%;
-  min-width: 320px;
-}
-.flip {
-  -webkit-transform: scale(-1, -1);
-  transform: scale(-1, -1);
-}
-</style>

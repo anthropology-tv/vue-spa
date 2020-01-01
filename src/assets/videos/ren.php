@@ -7,7 +7,7 @@ if ($handle = opendir('.')) {
         rename($fileName, $newName);
         if ($handleThumbs = opendir('../thumbs/')) {
             while (false !== ($fileNameThumbs = readdir($handleThumbs))) {
-                $newName = '../thumbs/' .  md5($fileName) . '.jpg';
+                $newName = '../thumbs/' .  md5($fileName) . '.webp';
                 rename('../thumbs/' .  $fileNameThumbs, $newName);
             }
         }
