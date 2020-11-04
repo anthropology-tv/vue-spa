@@ -12,7 +12,7 @@
     "test": "snyk test"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.3",
     "expose-loader": "^0.7.5",
     "jquery": "^3.5.0",
     "router": "^1.3.3",
